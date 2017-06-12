@@ -1,8 +1,8 @@
 import javax.swing.*;
 public class AlowpFirstProject{
     public static void main (String[] args){
-String name;
-name=System.out.println("Дарова, как звать?");
-System.out.println("Приятно познакомиться");
+int number=Integer.parseInt(JOptionPane.showInputDialog("Введите число:"));
+String text=number%2==0?"чётное":"нечётное";
+JOptionPane.showMessageDialog(null,"Вы ввели "+text+"число!");
     }
 }
